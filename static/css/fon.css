@@ -1,0 +1,61 @@
+/* Iosevka Extended */
+
+@font-face {
+  font-family: "Iosevka Extended";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Iosevka/Iosevka-ExtendedItalic.woff2') format('woff2');
+}
+@font-face {
+  font-family: "Iosevka Extended";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/Iosevka/Iosevka-ExtendedBoldItalic.woff2') format('woff2');
+}
+@font-face {
+  font-family: "Iosevka Extended";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Iosevka/Iosevka-Extended.woff2') format('woff2');
+}
+@font-face {
+  font-family: "Iosevka Extended";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/Iosevka/Iosevka-ExtendedBold.woff2') format('woff2');
+}
+
+/* Iosevka Etoile */
+
+@font-face {
+  font-family: "Iosevka Etoile";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Iosevka/IosevkaEtoile-Italic.woff2') format('woff2');
+}
+@font-face {
+  font-family: "Iosevka Etoile";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/Iosevka/IosevkaEtoile-BoldItalic.woff2') format('woff2');
+}
+@font-face {
+  font-family: "Iosevka Etoile";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Iosevka/IosevkaEtoile-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: "Iosevka Etoile";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/Iosevka/IosevkaEtoile-Bold.woff2') format('woff2');
+}

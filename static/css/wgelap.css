@@ -1,0 +1,18 @@
+:root {
+  --pr: #e0e0e0; /* #e1dec9; #f9d6da; #e0f2e5; Isi */
+  --pr2: #35a854; /* Mint-Y */
+  --pro: #090909;
+  --pr-isi: #262320; /* Kasumi */
+  --pro-isi: #5dcc7b; /* #fce9eb; Judul */
+  --lb: #060805;
+  --lb2: #50262825;
+  --lbo: #1a542a;
+  --garis: #0f3219;
+  --sk: #f0939e; /* Kasumi */
+  --tr: #81c6ef;
+    /* Parameter di bawah diambil dari https://codepen.io/sosuke/pen/Pjoqqp */
+    /* --tr-svg: invert(65%) sepia(90%) saturate(200%) hue-rotate(163deg) brightness(95%) contrast(96%); */
+  --logo-f: invert(53%) sepia(14%) saturate(1915%) hue-rotate(84deg) brightness(100%) contrast(92%);
+  --galat: var(--setsuna80);
+  --galat-isi: var(--setsuna10);
+}

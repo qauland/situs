@@ -1,0 +1,488 @@
+/* Berdasarkan Lanyon (https://github.com/poole/lanyon) */
+/* dan Poole (http://getpoole.com/)                     */
+
+/* ---------------------------------------------------- */
+
+
+/* ==================== */
+/* ROOT, HTML, DAN BODY */
+
+:root {
+  font-family : serif;
+  /* font-feature-settings: "ss02" 1; */
+  /* font-feature-settings: "cv05" 1; */
+  /* font-weight : 350; */
+}
+html,
+body {
+  overflow-x: hidden;
+  margin    : 0;
+  padding   : 0;
+}
+
+html {
+  font-size   : 14pt;
+  line-height : 1.5;
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size    : 11pt;
+  }
+}
+
+body {
+  background-color        : var(--md-sys-color-surface);
+  /* background-image        : linear-gradient(0deg, var(--md-sys-color-surface) 67%, var(--md-sys-color-primary-container)); */
+  /* background-attachment   : fixed; */
+  color                   : var(--md-sys-color-on-surface);
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+::selection {
+  background              : var(--md-sys-color-primary) !important;
+  color                   : var(--md-sys-color-on-primary) !important;
+}
+
+/* ================================== */
+/* JUDUL (SITUS, DI BERANDA, DAN POS) */
+
+.masthead {
+  /*background-image        : linear-gradient(0deg, #070707, var(--garis));*/
+  padding-top   : 1rem;
+  padding-bottom: 1rem;
+  margin-bottom : 3rem;
+  /*border-bottom : 1px solid var(--garis);*/
+}
+
+.masthead-title {
+  margin-top    : 0;
+  margin-bottom : 0;
+  color         : var(--md-sys-color-primary);
+}
+
+.masthead-title a {
+  color         : var(--md-sys-color-primary);
+}
+
+.masthead-title small {
+  font-size     : 75%;
+  font-weight   : 400;
+  color         : var(--md-sys-color-primary);
+  letter-spacing: 0;
+}
+
+@media (max-width: 48em) {
+  /* .masthead-title {
+    text-align  : center;
+  } */
+  .masthead-title small {
+    display     : none;
+  }
+}
+
+#topbar {
+  z-index                   : 3;
+  position                  : fixed;
+  background                : var(--md-sys-color-surface);
+  top                       : -100px;
+  width                     : 100%;
+  transition                : top 0.3s;
+  transition-timing-function: ease-out;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family   : serif;
+  /* font-feature-settings: "ss02" 0; */
+  /* font-feature-settings: "cv05" 1, "cv06" 1, "cv08" 1, "cv11" 1; */
+  color         : var(--md-sys-color-on-primary-container);
+/*  margin-bottom : .3rem;*/
+  line-height   : 1.25;
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+  font-weight   : 700;
+  /* font-stretch  : 85%; */
+  font-size     : 1.75rem;
+  /* letter-spacing: -0.02rem; */
+}
+
+h2, h3, h4, h5, h6 {
+  font-weight   : 700;
+}
+
+h2 {
+/*  margin-top    : 1rem;*/
+  font-size     : 1.5rem;
+}
+
+h2::before {
+  content       : "";
+  display       : block;
+  border-top    : 1px dashed var(--md-sys-color-on-primary-container);
+  margin-bottom : 1rem;
+}
+
+h3 {
+/*  margin-top    : 1.5rem;*/
+  font-size     : 1.3rem;
+}
+
+h4, h5, h6 {
+/*  margin-top    : 1rem;*/
+  font-size     : 1.1rem;
+}
+
+/* ======== */
+/* TEKS POS */
+
+p {
+  margin-top   : 0;
+  margin-bottom: 1rem;
+}
+
+/* .lead sebagai teks pembuka/perkenalan */
+.lead {
+  font-size    : 1.25rem;
+}
+
+/* ============================== */
+/* DAFTAR BERNOMOR ATAU BERSIMBOL */
+
+ul, ol {
+  padding-inline-start: 1.15em;
+}
+
+ul, ol, dl {
+  margin-top          : 0;
+  margin-bottom       : 1rem;
+}
+
+dt {
+  font-weight         : bold;
+}
+
+dd {
+  margin-bottom       : .5rem;
+}
+
+/* =============== */
+/* KUTIPAN (QUOTE) */
+
+blockquote {
+  background-color: var(--md-sys-color-secondary-container);
+  padding        : .5rem .1rem;
+  margin         : .8rem 0 1rem 0;
+  color          : var(--md-sys-color-on-secondary-container);
+  border-left    : .5rem solid var(--md-sys-color-on-secondary-container);
+  border-radius  : 8px;
+}
+
+blockquote p {
+  margin-left    : .5rem;
+}
+
+blockquote p:last-child {
+  margin-bottom  : 0;
+}
+
+@media (min-width: 30em) {
+  blockquote {
+    padding-right: 1rem;
+    padding-left : 1.25rem;
+  }
+  blockquote p {
+  margin-left    : 0;
+  }
+}
+
+/* =============== */
+/* PRANALA, TAUTAN */
+
+a {
+  color          : var(--md-sys-color-tertiary);
+  /* text-decoration: none; */
+}
+
+a strong {
+  color          : inherit;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+a.pagination-item {
+  text-decoration: none;
+}
+
+/* ============================ */
+/* KODE SEBARIS ATAU MULTIBARIS */
+
+code,
+pre {
+  font-family     : "Roboto Mono", Consolas, monospace;
+}
+
+code {
+  padding         : .12rem .12rem;
+  font-size       : .85rem;
+  color           : var(--md-sys-color-secondary);
+  border-radius   : 3px;
+  background-color: var(--md-sys-color-on-secondary);
+}
+
+pre {
+  display         : block;
+  margin-top      : 0;
+  margin-bottom   : 1rem;
+  padding         : 1rem;
+  font-size       : .85rem;
+  line-height     : 1.4;
+  white-space     : pre;
+  overflow-x      : auto;
+  border          : 1.5px dashed var(--md-sys-color-primary);
+  border-radius   : 8px;
+}
+
+pre code {
+  padding         : 0;
+  font-size       : 100%;
+  color           : inherit;
+  border          : none;
+  background-color: transparent;
+}
+
+/* ================= */
+/* MATHJAX DAN KATEX */
+
+.MathJax_Display, .MJXc-display, .MathJax_SVG_Display, .katex-display {
+  padding   : .4em .3em .3em .3em;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+/* ======================= */
+/* TANGGAL DAN PEMILIK POS */
+
+.post-date {
+  /* font-family  : "Radio-Canada", sans-serif; */
+  font-size    : .8rem;
+  font-weight  : 400;
+  display      : block;
+  /* margin-top   : .75rem; */
+  color        : var(--md-sys-color-secondary);
+}
+
+.post-date.bottom {
+  font-feature-settings: "cv08" 1;
+  color: var(--md-sys-color-primary);
+  margin-top : -.07rem;
+  font-size  : .8rem;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+/* =========================== */
+/* PENUTUP SITUS ATAU PENAFIAN */
+
+.disclaimer {
+  font-size     : .8rem;
+  color         : var(--md-sys-color-primary);
+  margin-bottom : 30px;
+}
+
+.disclaimer a {
+  text-decoration: none;
+}
+
+.disclaimer a:hover {
+  text-decoration: underline;
+}
+
+.disc-icon {
+  filter        : var(--tr-svg);
+  vertical-align: text-top;
+  display       : inline;
+  width         : .9rem;
+  height        : .9rem;
+  margin        : 0px 1px 0px 5px;
+  border-radius : 0px;
+}
+
+/* ================ */
+/* GARIS HORISONTAL */
+
+hr {
+  position     : relative;
+  margin       : 1.5rem 0;
+  border       : 0;
+  border-top   : 1px solid var(--md-sys-color-primary);
+  border-bottom: 0;
+}
+
+.post hr {
+  border-top   : 1px solid var(--md-sys-color-primary);
+}
+
+/* ========================= */
+/* GAMBAR (SAMPUL DAN JUDUL) */
+
+img {
+  display         : block;
+  max-width       : 100%;
+  margin          : 1rem auto 1rem auto;
+  border-radius   : 8px;
+}
+
+#cover {
+  width           : 100%;
+  max-height      : 100%;
+  object-fit      : cover;
+}
+
+#caption {
+  position        : absolute;
+  margin-left     : 5px;
+  bottom          : 5px;
+  right           : 5px;
+  font-size       : 65%;
+  background-color: rgba(255,255,255,0.7);
+  border-style    : solid;
+  border-width    : 3px;
+  border-color    : rgba(0,0,0,0);
+  border-radius   : 5px;
+}
+
+#sitelogo {
+  margin: 0px .35rem -5px 0;
+  height: 1.75rem;
+  filter: var(--logo-svg);
+}
+
+#homeimg {
+  display       :block;
+  float         :right;
+  object-fit    :cover;
+  width         :5em;
+  height        :5em;
+  border-radius :100%;
+  margin        :0;
+}
+/* ===== */
+/* TABEL */
+
+table {
+  display         : block;
+  margin-bottom   : 1rem;
+  width           : 100%;
+  border          : 1px solid var(--md-sys-color-primary);
+  border-collapse : collapse;
+  overflow-x      : auto;
+}
+
+td,
+th {
+  padding         : .25rem .5rem;
+  border          : 1px solid var(--md-sys-color-primary);
+}
+
+/* Gaya berbeda untuk judul tabel.
+th {
+  font-family     : serif;
+}
+*/
+
+tbody tr:nth-child(odd) td,
+tbody tr:nth-child(odd) th {
+  background-color: var(--md-sys-color-inverse-primary);
+}
+
+
+/* ============ */
+/* CATATAN KAKI */
+
+.footnotes {
+  font-size: .8rem;
+  color: var(--md-sys-color-on-primary-container);
+}
+
+.footnotes hr::before {
+  content: "Catatan Kaki";
+  font-style: italic;
+  color: var(--md-sys-color-on-primary-container);
+}
+
+/* ================ */
+/* TATA LETAK SITUS */
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrap {
+  position          : relative;
+  width             : 100%;
+}
+
+.container {
+  max-width         : 32rem;
+  padding-left      : 1rem;
+  padding-right     : 1rem;
+  margin-left       : auto;
+  margin-right      : auto;
+}
+
+@media (min-width: 38em) {
+  .container {
+    max-width: 37rem;
+  }
+}
+
+@media (min-width: 56em) {
+  .container {
+    max-width: 54rem;
+  }
+}
+
+.page,
+.post {
+  background-color: var(--md-sys-color-surface);
+  color: var(--md-sys-color-on-primary-container);
+  padding: 1em;
+  margin-bottom: 1em;
+  border       : 2px solid var(--md-sys-color-primary);
+  border-radius: 10px;
+}
+
+.page-title,
+.post-title,
+.post-title a {
+  color: var(--md-sys-color-on-primary-container);
+  text-decoration: none;
+}
+
+.post-title a:hover {
+  text-decoration: underline;
+}
+
+.page-title,
+.post-title {
+  margin-top: 0;
+}
+
+/* ================== */
+/* UNTUK POS TERTENTU */
+
+/* s3n-2024 */
+#chartjs-s3n-canvas {
+  background-color: rgba(255, 255, 255, .95);
+  border-radius   : 5px;
+}
+
+/* Dikombinasikan oleh Qauland (@kyunode) */

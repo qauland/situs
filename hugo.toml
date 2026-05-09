@@ -1,0 +1,16 @@
+baseURL = 'https://kyunode.github.io/'
+languageCode = 'id-ID'
+defaultContentLanguage = 'id'
+timeZone = 'Asia/Makassar'
+title = "Qauland's Sandbox"
+[params]
+  title = "Qauland's Sandbox"
+  dateForm = '02 Jan 2006'
+[permalinks]
+  posts = '/:slugorcontentbasename/'
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
