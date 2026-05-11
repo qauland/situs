@@ -13,10 +13,12 @@
       {{ end }}
     </div>
   {{ else }}
+  {{ if .Description }}
+    {{ .Description | markdownify }}
+  {{ end }}
     <hr/>
   {{ end }}
   {{ .Content }}
-</div>
 
 {{ if eq .Params.author "Qauland" }}
   <img id="sitelogo" src="/images/qauland-plain.png" style="float:left;" alt="Logo Qauland"></img>
@@ -25,7 +27,9 @@
 <span class="post-date bottom">
   {{ dateFormat "0201" .Date }}
   <br>
-  {{ index site.Data.roman (dateFormat "2006" .Date) }}
+  {{ index hugo.Data.roman (dateFormat "2006" .Date) }}
 </span>
+
+</div>
 
 {{ partial "default_foot.html" . }}

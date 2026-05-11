@@ -1,61 +1,61 @@
-/* Iosevka Extended */
+/* Radio Canada */
 
 @font-face {
-  font-family: "Iosevka Extended";
+  font-family: "Radio Canada";
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url('/fonts/Iosevka/Iosevka-ExtendedItalic.woff2') format('woff2');
+  src: url('/fonts/RadioCanada/RadioCanada-Italic.woff2') format('woff2');
 }
 @font-face {
-  font-family: "Iosevka Extended";
+  font-family: "Radio Canada";
   font-style: italic;
   font-weight: 700;
   font-display: swap;
-  src: url('/fonts/Iosevka/Iosevka-ExtendedBoldItalic.woff2') format('woff2');
+  src: url('/fonts/RadioCanada/RadioCanada-BoldItalic.woff2') format('woff2');
 }
 @font-face {
-  font-family: "Iosevka Extended";
+  font-family: "Radio Canada";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('/fonts/Iosevka/Iosevka-Extended.woff2') format('woff2');
+  src: url('/fonts/RadioCanada/RadioCanada-Regular.woff2') format('woff2');
 }
 @font-face {
-  font-family: "Iosevka Extended";
+  font-family: "Radio Canada";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('/fonts/Iosevka/Iosevka-ExtendedBold.woff2') format('woff2');
+  src: url('/fonts/RadioCanada/RadioCanada-Bold.woff2') format('woff2');
 }
 
-/* Iosevka Etoile */
+/* Radio Canada Condensed */
 
 @font-face {
-  font-family: "Iosevka Etoile";
+  font-family: "Radio Canada Condensed";
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url('/fonts/Iosevka/IosevkaEtoile-Italic.woff2') format('woff2');
+  src: url('/fonts/RadioCanada/RadioCanadaCondensed-Italic.woff2') format('woff2');
 }
 @font-face {
-  font-family: "Iosevka Etoile";
+  font-family: "Radio Canada Condensed";
   font-style: italic;
   font-weight: 700;
   font-display: swap;
-  src: url('/fonts/Iosevka/IosevkaEtoile-BoldItalic.woff2') format('woff2');
+  src: url('/fonts/RadioCanada/RadioCanadaCondensed-BoldItalic.woff2') format('woff2');
 }
 @font-face {
-  font-family: "Iosevka Etoile";
+  font-family: "Radio Canada Condensed";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('/fonts/Iosevka/IosevkaEtoile-Regular.woff2') format('woff2');
+  src: url('/fonts/RadioCanada/RadioCanadaCondensed-Regular.woff2') format('woff2');
 }
 @font-face {
-  font-family: "Iosevka Etoile";
+  font-family: "Radio Canada Condensed";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('/fonts/Iosevka/IosevkaEtoile-Bold.woff2') format('woff2');
+  src: url('/fonts/RadioCanada/RadioCanadaCondensed-Bold.woff2') format('woff2');
 }

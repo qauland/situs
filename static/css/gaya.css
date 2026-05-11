@@ -8,7 +8,7 @@
 /* ROOT, HTML, DAN BODY */
 
 :root {
-  font-family : serif;
+  font-family : "Radio Canada", serif;
   /* font-feature-settings: "ss02" 1; */
   /* font-feature-settings: "cv05" 1; */
   /* font-weight : 350; */
@@ -52,7 +52,7 @@ body {
   /*background-image        : linear-gradient(0deg, #070707, var(--garis));*/
   padding-top   : 1rem;
   padding-bottom: 1rem;
-  margin-bottom : 3rem;
+  margin-bottom : 1rem;
   /*border-bottom : 1px solid var(--garis);*/
 }
 
@@ -93,7 +93,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family   : serif;
+  font-family   : "Radio Canada", serif;
   /* font-feature-settings: "ss02" 0; */
   /* font-feature-settings: "cv05" 1, "cv06" 1, "cv08" 1, "cv11" 1; */
   color         : var(--md-sys-color-on-primary-container);
@@ -106,6 +106,7 @@ h1 {
   font-weight   : 700;
   /* font-stretch  : 85%; */
   font-size     : 1.75rem;
+  margin-bottom : .25rem;
   /* letter-spacing: -0.02rem; */
 }
 
@@ -325,7 +326,7 @@ hr {
 }
 
 .post hr {
-  border-top   : 1px solid var(--md-sys-color-primary);
+  border-top   : 2px solid var(--md-sys-color-primary);
 }
 
 /* ========================= */
