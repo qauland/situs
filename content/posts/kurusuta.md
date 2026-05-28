@@ -6,7 +6,7 @@ date   : 2026-05-09
 lastmod: 2026-05-10
 ---
 
-- Bonus `10x1` di _gacha_ awal dihitung.
+- Bonus dari _gacha_ awal dihitung.
 - _Tracking_ berhenti kalau dapat Sachi standar.
 
 ```
@@ -15,4 +15,5 @@ lastmod: 2026-05-10
 10/05 05.19 10x8 3x01 2x10
 10/05 16.30 10x8 3x02 2x11
 10/05 17.22 10x8 3x02 2x12
+11/05 10.35 10x5 3x02 2x09
 ```

@@ -59,3 +59,34 @@
   font-display: swap;
   src: url('/fonts/RadioCanada/RadioCanadaCondensed-Bold.woff2') format('woff2');
 }
+
+/* Vend */
+
+@font-face {
+  font-family: "Vend";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Vend/Vend-Italic.woff2') format('woff2');
+}
+@font-face {
+  font-family: "Vend";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/Vend/Vend-BoldItalic.woff2') format('woff2');
+}
+@font-face {
+  font-family: "Vend";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Vend/Vend-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: "Vend";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/Vend/Vend-Bold.woff2') format('woff2');
+}
