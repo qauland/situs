@@ -1,5 +1,6 @@
-name = 'hosting-cloudflare-worker'
-compatibility_date = '2025-07-31'
+name = 'kyunode'
+compatibility_date = '2026-05-28'
+workers_dev = false
 
 [build]
 command = 'chmod a+x build.sh && ./build.sh'
