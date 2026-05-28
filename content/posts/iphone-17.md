@@ -1,7 +1,7 @@
 ---
 title: "Sudah lima bulan lebih saya pakai iPhone 17. Ini jeleknya iPhone."
 author: Qauland
-description: "Yang versi _Basic_, btw."
+description: "Yang versi polosan, btw."
 date   : 2026-05-28
 ---
 
