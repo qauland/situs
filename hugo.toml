@@ -1,4 +1,4 @@
-baseURL = 'https://kyunode.workers.dev/'
+baseURL = 'https://kyunode.pages.dev/'
 locale = 'id-ID'
 defaultContentLanguage = 'id'
 timeZone = 'Asia/Makassar'
